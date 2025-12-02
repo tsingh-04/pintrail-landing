@@ -1,11 +1,12 @@
 <script> 
   export const title = "";
+  import logo from '/pintrails-logo.png';
 </script>
 
 <header class="hero">
   <div class="title-row">
     <h1>PinTrails</h1>
-    <img src="/pintrails-logo.png" alt="PinTrails logo" class="logo" />
+    <img src={logo} alt="PinTrails logo" class="logo" />
   </div>
 </header>
 
